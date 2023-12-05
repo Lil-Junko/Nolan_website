@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nolan Meyer</title>
+    <!-- Linking external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Including external JavaScript file -->
+    <script src="main.js"></script>
+</head>
+<body onload="sizeContent()"> <!-- Calling the sizeContent function when the body loads -->
+
+    <!-- Main content section -->
+    <h1>My Programs</h1>
+    <div class="maindiv" id="maincontent">
+        <h2>Binary clock in Minecraft</h2>
+        <hr> <!-- Horizontal line for visual separation -->
+        <!-- Embedded YouTube video -->
+        <iframe width="80%" height="660" src="https://www.youtube.com/embed/nWSQpA-zIec?si=4h-OsTKW6rpF5fzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <hr> <!-- Another horizontal line for visual separation -->
+        <br>
+        <br>
+        <!-- Navigation buttons with images -->
+        <div class="button-container">
+            <div>
+                <a href="code2.html"><img src="Images/arrowleft.png" width="150px"></a>
+            </div>
+            <div>
+                <a href="work.html"><img src="Images/arrowright.png" width="150px"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation section -->
+    <div class="nav" id="navcontent">
+        <!-- Navigation buttons with onclick events -->
+        <button class="button" onclick="location.href='home.html'">Home</button>
+        <button class="button" onclick="location.href='work.html'">Work</button>
+        <button class="button" onclick="location.href='bio.html'">Bio</button>
+        <button class="button" onclick="location.href='contact.html'">Contact</button>
+    </div>
+
+</body>
+</html>

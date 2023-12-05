@@ -1,0 +1,82 @@
+
+/*
+    Navigation style
+*/
+.nav {
+    background-color: rgb(30, 30, 30);
+    height: 60px;
+    color: white;
+    position: sticky;
+    top: 0px;
+    padding: 1%;
+    border: 2px solid limegreen;
+}
+
+/*
+    Main content
+*/
+.maindiv {
+    background-color: rgb(30, 30, 30);
+    height: 600px/10%;
+    border: 2px solid limegreen;
+    padding: 1%;
+    font-size: 22px;
+}
+
+/*
+    Page headers
+*/
+h1
+{
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+    Sub headers
+*/
+h2
+{
+    font-size: 190%;
+}
+
+/*
+    Bio text
+*/
+h3
+{
+    font-size: 150%;
+}
+
+/*
+    Navigation buttons
+*/
+.button {
+    background-color: rgb(184, 205, 50); 
+    border: 1;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+
+/*
+    This is so that one button is on the right
+*/
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+    Background and text color
+*/
+body {
+    color: whitesmoke;
+    background-image: url('Images/chekc.png');
+}
+
